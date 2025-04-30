@@ -1,0 +1,14 @@
+package coding.fundamental;
+
+public class CleaningSchedule {
+    public static void main(String[] args) {
+        CLEANING: for (char stables = 'a'; stables <= 'd'; stables++) {
+            for (int leopard = 1; leopard <= 3; leopard++) {
+                if (stables == 'b' || leopard == 2) {
+                    continue CLEANING;
+                }
+                System.out.println("Cleaning: " + stables + " " + leopard);
+            }
+        }
+    }
+}
