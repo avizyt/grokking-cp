@@ -2,7 +2,6 @@ package coding.fundamental;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Random;
 
 public class ArrayManiplucation {
 
@@ -49,5 +48,13 @@ public class ArrayManiplucation {
             System.out.print(num + " ");
         }
 
+        var arr = new ArrayList<Integer>();
+        for (int i = 1; i <= 6; i++) {
+            arr.add(i * 2);
+        }
+        for (int j = 0; j < arr.size(); j++) {
+
+            System.out.println(arr.get(j));
+        }
     }
 }
