@@ -1,4 +1,4 @@
-package coding.DS.linkedlist;
+package coding.datastructures.linkedlist;
 
 public class Node {
     int data;
@@ -8,4 +8,5 @@ public class Node {
         this.data = data;
         this.next = null;
     }
+
 }
